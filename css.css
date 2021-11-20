@@ -13,7 +13,6 @@ p{
     color: rgb(14, 10, 9);
     font-size: 50px;
     text-align: center;
-    text-decoration: underline;
     font-family: 'Londrina Solid', cursive;
     margin: 8%;
 }
@@ -21,7 +20,7 @@ p{
 .head { 
     background-color:rgb(7, 20, 47);
 }
-.logo {
+.logoo {
     text-align: center;
 }
 /* En los siguienytes integro flex box*/
