@@ -1,0 +1,15 @@
+$color:
+red,
+green,
+black,
+yellow,
+orange,
+white;
+
+.button-ok {
+    color: nth($color, 2);
+}
+.button-not {
+    color: nth($color, 6);
+}
+
