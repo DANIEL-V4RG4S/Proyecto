@@ -10,10 +10,10 @@
 footer {
     background-color: rgb(7, 20, 47); color: white;
     h2 {
-        text-align: left;} 
+        text-align: center;} 
 
     div {
-        text-align: center;}
+        text-align: left;}
       
     }   
 nav
@@ -42,7 +42,6 @@ $h1: map-get($headings, h1);
 h1 {
     font-size: $h1;
 }
-
 
 
 
