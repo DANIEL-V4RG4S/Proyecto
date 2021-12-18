@@ -5,7 +5,7 @@
 
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, user-scalable=no; initial-scale=1.0, maximun-scale=1.0, minimun-scale=1.0">
   <link rel="stylesheet" href="css/style.css">
     <!--animates.css-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
@@ -37,37 +37,33 @@ puedes acceder a los mejores precios e incluso importar en masa para montar tu p
 <body>
   <header class="head">
 
-    <!--Header-->
-    <div class="logoo">
-      <img class="img-fluid animate__animated animate__backInUp" src="./src/assets/img/Imagen1.png"
-        alt="logo de tecnology import">
-    </div>
-    </div>
-    <!--Aqui va el perfil-->
-
-    <h4 class="nombre">Daniel</h4>
-    <div class="pefil">
-      <h5 class="colombia">Colombia</h5>
+    <div class="container">
+      <div class="row">
+      <div class="col">
       <img class="img-fluid animate__animated animate__lightSpeedInRight animate__delay-2s" src="./src/assets/img/colombia.svg" alt=" Bandera de Colombia" width="60" height="auto">
     </div>
-  </header>
-
+        <div class="col-sm-12"><img class="img-fluid animate__animated animate__backInUp" src="./src/assets/img/Imagen1.png"
+          alt="logo de tecnology import"></div>
+        
+      </div>
+    </div>
+</header>
   <!--aqui empiezo agregar boostrap-->
   <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
-    <div class="container">
+    <div class="container-fluid">
       <a class="navbar-brand" href="index.html">Inicio</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse d-flex justify-content-center d-flex justify-content-center "
+      <div class="collapse navbar-collapse "
         id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item d-flex justify-content-center">
+          <li class="nav-item">
             <a class="nav-link text-black" href="ofertas.html">Ofertas</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-black" href="conversor.html" target="_blank">Conversor de
+            <a class="nav-link text-black" href="conversor.html">Conversor de
               divisas</a>
           </li>
           <li class="nav-item">
@@ -82,7 +78,7 @@ puedes acceder a los mejores precios e incluso importar en masa para montar tu p
     </div>
   </nav>
   <h2 class="titulo ">Compra en nuestra plataforma, importa tecnologia y aprende abilidades financieras</h2>
-  <section class="gridd">
+  <section class="gridd grid">
     <div class=grid-uno>
       <!--<button class="izqurd">Compra en el portal</button>-->
       <button type="button" class="btn-lg rounded mx-auto d-block button-x">Compra en el portal</button>
@@ -107,7 +103,7 @@ puedes acceder a los mejores precios e incluso importar en masa para montar tu p
     </div>
 
     <!-- seccion de la derecha-->
-    <div class="grid-uno">
+    <div class="grid-uno g-col-6 -md-">
       <!--<button class="importa-producto">Importa producto</button>-->
       <button type="button" class="btn-lg importa-producto button-x">Importa producto</button>
       <nav>
@@ -120,8 +116,9 @@ puedes acceder a los mejores precios e incluso importar en masa para montar tu p
         <div class="de">Miselanea</div>
         <div class="de">Herramienta</div>
       </nav>
+    
     </div>
-    <div class="grid-uno">
+    <div class="grid-uno g-col-8">
       <!--Aqui va una imagen-->
       <p class="tecno">Lo ultimo en tecnologia</p>
 
@@ -177,7 +174,7 @@ puedes acceder a los mejores precios e incluso importar en masa para montar tu p
         <input type="Submit" value="registrarse" />
     </div>
 
-    <nav class="foott">
+    <nav class="foott hidden-sm-down">
 
       <div class="foott">Mercadolibre</div>
       <div class="foott">Ebay</div>
@@ -186,7 +183,7 @@ puedes acceder a los mejores precios e incluso importar en masa para montar tu p
 
     </nav>
     <!--aqui va la opcion de soporte-->
-    <div class="support animate__animated animate__bounceInLeft animate__delay-3s">
+    <div class="support animate__animated animate__bounceInLeft animate__delay-3s hidden-sm-down">
       <p>Sopporte</P>
       <img class="wts" src="./src/assets/img/Whatsapp.jpg" alt="Icono de Whatsapp" width="80" height="auto">
       <!--Antes del nuemro va el icono de whatsap-->
