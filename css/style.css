@@ -74,28 +74,16 @@ padding: 50px; }
 
 .pp {
   color: white;
-position: relative;
-left: 15%;
+text-align: end;
   font-size: 0.9375em;
   text-decoration-line: overline; }
-
-.image1 {
-  position: relative;
-  right: 400px;
-  top: -200px; }
-
-.menu {
-  margin: 8px;
-  display: flex;
-  justify-content: center;
-  font-size: 1.5625em; }
 
 .de {
   display: inline-block;
   margin: 20px;
   position: relative;
   top: 0px;
-  font-size: 1.5625em; }
+  font-size: 1.4em; }
 
 .support {
   position: fixed;
@@ -107,46 +95,27 @@ left: 15%;
   position: relative;
   top: 50px;
   margin: 20px;
-  font-size: 1.5625em; }
+  font-size: 1.4em; }
 
 .izquierdaa {
   text-align: left;
   margin: 10%;
    }
-   .wts {
-    left: 20px;
-    padding: 19px;
-   }
 
 .foott {
   text-align: left;
-  padding: 10%;
-  font-size: 1.25em; }
+  padding: 2%;
+  font-size: 1.10em; 
+margin-left: 2%;}
 
 .finanzas {
   text-transform: uppercase;
   color: #5a4d4d;
   text-align: center; }
 
-.imp {
-  position: relative;
-  left: 450px;
-  top: -740px;
-  font-size: 140%; }
-
-.video1 {
-  position: relative;
-  left: 1100px;
-  top: -650px; }
-
 .f1 {
   justify-content: center;
   font-family: 'Londrina Solid', cursive;
-}
-.vid {
-    text-align: start;
-    font-size: 1.5625em;
-    margin: 15px;
 }
 
 /* En este incluyo flex box*/
@@ -157,12 +126,8 @@ left: 15%;
 
 .img {
   position: relative;
-  left: 450px;
-  top: -600px;
-  transition: all 0.5s ease-in-out; }
-
-.img:hover {
-  transform: scale(1.05); }
+  left: 80px;
+}
 
 /*GRID*/
 .valoress {
@@ -170,6 +135,12 @@ left: 15%;
   border: 5px solid black;
   grid-template-columns: 1fr 1fr 1fr;
   justify-content: space-between; }
+.vid {
+  text-align: start;
+  font-family: 'Londrina Solid', cursive;
+  font-size: 25px;
+  margin-top: 7%;
+  margin-bottom: 2%;
 }
 
 .de:hover {
