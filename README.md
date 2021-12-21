@@ -1,13 +1,13 @@
 # Proyecto
 <h1 align="center">Hi 👋, I'm DANIEL</h1>
-<h3 align="center">A passionate frontend developer from India</h3>
+<h3 align="center">A passionate frontend developer from Colombia</h3>
 
-- 🔭 I’m currently working on **proyecto**
+- 🔭 I’m currently working on **Arcad**
 
 - 📫 How to reach me **dvargas11@hotmial.com**
 
 <h3 align="left">Connect with me:</h3>
-<p align="left">
+<p align="left"> 3043790435
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
