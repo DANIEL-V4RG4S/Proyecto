@@ -15,14 +15,12 @@ p {
   font-size: 50px;
   text-align: center;
   font-family: 'Londrina Solid', cursive;
-  margin: 8%; }
-  img {
-    position: relative;
-    left: 25px;
-  }
+  margin: 8%; 
+}
 
 .head {
-  background-color: #07142f; }
+  background-color: #07142f; 
+}
 
 
 /* En los siguienytes integro flex box*/
@@ -33,7 +31,8 @@ section nav ul li {
   color: #070707;
   font-size: 20px;
   text-decoration-line: none;
-  text-align: center; }
+  text-align: center; 
+}
 
 .colombia {
   color: white;
@@ -50,12 +49,6 @@ section nav ul li {
   text-align: start;
   margin: 10px;
  }
-
-.derecha {
-  text-align: center;
-  position: relative;
-  top: -543px;  
-  left: 0px; }
 
 footer {
   background-color: #07142f;
@@ -80,38 +73,40 @@ text-align: end;
 
 .de {
   display: inline-block;
-  margin: 20px;
-  position: relative;
-  top: 0px;
-  font-size: 1.4em; }
-
-.support {
-  position: fixed;
-  bottom: 0;
-  right: 0%; }
-
+  margin: 1.25rem;
+  margin-left: 5%;
+  text-align: center;
+  font-size: 1.4em; 
+}
+.x {
+  margin-left: 20%;
+}
+.dee {
+  margin-left:;
+}
 .izquierda {
   text-align: center;
-  position: relative;
-  top: 50px;
   margin: 20px;
-  font-size: 1.4em; }
+  font-size: 1.4em;
+}
 
 .izquierdaa {
   text-align: left;
   margin: 10%;
-   }
+}
 
 .foott {
   text-align: left;
   padding: 2%;
   font-size: 1.10em; 
-margin-left: 2%;}
+margin-left: 2%;
+}
 
 .finanzas {
   text-transform: uppercase;
   color: #5a4d4d;
-  text-align: center; }
+  text-align: center; 
+}
 
 .f1 {
   justify-content: center;
@@ -122,7 +117,8 @@ margin-left: 2%;}
 .izquierdaa {
   text-align: left;
   margin: 20px;
-  /*Integro box model/*/ }
+  /*Integro box model/*/ 
+}
 
 .img {
   position: relative;
@@ -134,7 +130,8 @@ margin-left: 2%;}
   display: grid;
   border: 5px solid black;
   grid-template-columns: 1fr 1fr 1fr;
-  justify-content: space-between; }
+  justify-content: space-between; 
+}
 .vid {
   text-align: start;
   font-family: 'Londrina Solid', cursive;
@@ -144,28 +141,32 @@ margin-left: 2%;}
 }
 
 .de:hover {
-  transform: scale(1.4); }
-
+  transform: scale(1.4); 
+}
 .de {
-  transition: all 1s; }
-
+  transition: all 1s; 
+}
 .con {
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
   font-size: 2.1875em;
-  margin-bottom: 2%; }
+  margin-bottom: 2%; 
+}
 
 .conver:hover {
-  transform: scale(1.2); }
+  transform: scale(1.2);
+}
 
 .conver {
-  transition: all 0.8s; }
+  transition: all 0.8s;
+}
 
 .conversor {
   display: flex;
   justify-content: center;
   background-color: #d6e5f6;
-  font-size: 25px; }
+  font-size: 25px; 
+}
 
 .conver {
   margin: 5%; 
@@ -179,19 +180,24 @@ left: 20%;
 }
 
 .button-ok {
-  color: green; }
+  color: green; 
+}
 
 .button-not {
-  color: white; }
+  color: white; 
+}
 
 .logo {
-  background-color: #080706; }
+  background-color: #080706; 
+}
 
 footer {
   background-color: #07142f;
-  color: white; }
+  color: white; 
+}
   footer h2 {
-    text-align: left; }
+    text-align: left; 
+}
     footer h3 {
       text-align: center;
     margin-top: 6%; }
@@ -220,16 +226,17 @@ div {
   text-decoration: noneborder-radius 1px -wedkit-border-radius 1px -moz-border-radius 1px -ms-border-radius 1px; }
 
 h1 {
-  font-size: 4em; }
-  .whatsapp {
-    position:fixed;
-    width:60px;
-    height:60px;
-    bottom:40px;
-    right:40px;
-    border-radius:50px;
-    text-align:center;
-    font-size:30px;
-    z-index:100;
-  }
-    
+  font-size: 4em; 
+}
+.whatsapp {
+  position:fixed;
+  width:60px;
+  height:60px;
+  bottom:40px;
+  right:40px;
+  border-radius:50px;
+  text-align:center;
+  font-size:30px;
+  z-index:100;
+}
+  
